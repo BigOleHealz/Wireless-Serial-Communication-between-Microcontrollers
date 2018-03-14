@@ -1,0 +1,38 @@
+*Pick And Place List
+*Company=
+*Author=
+*eMail=
+*
+*Project=Controller4.6
+*Date=12:06:28
+*CreatedBy=Fritzing 0.9.3b.04.19.5c895d327c44a3114e5fcc9d8260daf0cbb52806
+*
+*
+*Coordinates in mm, always center of component
+*Origin 0/0=Lower left corner of PCB
+*Rotation in degree (0-360, math. pos.)
+*
+*No;Value;Package;X;Y;Rotation;Side;Name
+1;;lipo-110;48.3739;-48.3658;90;Bottom;U3
+2;;;50.8333;-23.7722;0;Bottom;Via5
+3;;[THT];60.2833;-50.1523;0;Bottom;S10
+4;;[THT];60.2833;-22.2123;0;Bottom;S11
+5;;[THT];12.0233;-50.1523;0;Bottom;S8
+6;;[THT];36.5735;-35.9122;90;Bottom;S14
+7;;;40.6733;-13.6122;0;Bottom;Via13
+8;;;24.1634;-68.2221;0;Bottom;Via2
+9;;;20.3534;-18.6922;0;Bottom;Via11
+10;;;25.4334;-13.6122;0;Bottom;Via12
+11;;[THT];36.3034;-7.55195;180;Bottom;S12
+12;;;18.5862;-36.4636;180;Bottom;Teensy 3.2
+13;;;33.0533;-25.0422;0;Bottom;Via14
+14;;;47.0233;-68.2221;0;Bottom;Via4
+15;10µF;0605 [SMD, electrolytic];47.0233;-9.96222;-90;Bottom;C2
+16;;;63.5333;-36.4722;0;Bottom;Via10
+17;;kps-1290;69.6535;-36.1821;-90;Bottom;U2
+18;;;35.593;-35.7182;180;Bottom;Part3
+19;;;50.8333;-21.2322;0;Bottom;Via6
+20;;[THT];12.0233;-22.2123;180;Bottom;S13
+21;;[THT];36.3034;-63.4319;180;Bottom;S9
+22;;;41.9433;-45.3621;0;Bottom;Via7
+23;;;24.7779;-46.966;180;Bottom;Part5
