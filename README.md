@@ -6,15 +6,15 @@
 
 # **Usage**
 
-###Mobile App
->The app itself is rather intuitive. No pairing is necessary as the phone pairs automatically to the nearest Bluefruit device upon opening the app. A message can be sent to the display board by simply clicking either button at each of the four corners of the screen. Obviously, the message sent will be the same as the text on the button. The text on the button can be manually changed by long-pressing on the button itself, which clears the text from the button and brings up the keyboard. 
+### Mobile App
+The app itself is rather intuitive. No pairing is necessary as the phone pairs automatically to the nearest Bluefruit device upon opening the app. A message can be sent to the display board by simply clicking either button at each of the four corners of the screen. Obviously, the message sent will be the same as the text on the button. The text on the button can be manually changed by long-pressing on the button itself, which clears the text from the button and brings up the keyboard. 
 
->In addition, voice functionality is available in the app by clicking the center button. If the message sends successfully, the car at the top of the display will scroll across the screen from right to left. If the car does not scroll across the screen, it is due to 1 of 3 reasons: either the mobile device is not properly paired to the display, the text input was determined to be aggressive and/or hostile, or the car raced across the screen so fast that you blinked and missed it.
+In addition, voice functionality is available in the app by clicking the center button. If the message sends successfully, the car at the top of the display will scroll across the screen from right to left. If the car does not scroll across the screen, it is due to 1 of 3 reasons: either the mobile device is not properly paired to the display, the text input was determined to be aggressive and/or hostile, or the car raced across the screen so fast that you blinked and missed it.
 
 ### Remote
->The remote features six buttons corresponding to six preset messages, as well as a central “confirm” or “send” button. It comes with an omni-directional swivel mount which allows users to adhere it to the dashboard or AC vent. 
+The remote features six buttons corresponding to six preset messages, as well as a central “confirm” or “send” button. It comes with an omni-directional swivel mount which allows users to adhere it to the dashboard or AC vent. 
 
->When one of the six buttons are pressed, a blue LED ring lights up next to it to show the user which message has been activated. The user may then press the center button to send the message to the LED display. This 2-step process is designed mostly to prevent the user from accidentally sending the wrong message. Upon activation of the center button, the LED ring should sequentially light up blue until the entire ring is illuminated blue. The LEDs next to the activated button will turn to green and then fade away if the message sends successfully or turn to red and fade away if an error was encountered.
+When one of the six buttons are pressed, a blue LED ring lights up next to it to show the user which message has been activated. The user may then press the center button to send the message to the LED display. This 2-step process is designed mostly to prevent the user from accidentally sending the wrong message. Upon activation of the center button, the LED ring should sequentially light up blue until the entire ring is illuminated blue. The LEDs next to the activated button will turn to green and then fade away if the message sends successfully or turn to red and fade away if an error was encountered.
 
 ### LED Display Board
 >The LED display itself is fairly straightforward. Just mount it on your rear windshield by rotating the side panels 180° so that both suction cups face the same direction as the display. Simply place the suction cups against the inside of the rear windshield and lock the flaps on the opposite face of the panels. Then flip the switch on the rear of the enclosure to power on the device.
