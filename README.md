@@ -1,8 +1,8 @@
 # **Introduction**
 
->The purpose of this project is to wire two Teensy 3.2 boards to communicate with one another wirelessly, with one Teensy acting as a receiver ready to scroll text across an LED screen while the other Teensy acts as a remote telling the receiver what text to display. To accomplish this, both boards were outfitted with nRF24l01 transceiver modules to communicate via RF.
+The purpose of this project is to wire two Teensy 3.2 boards to communicate with one another wirelessly, with one Teensy acting as a receiver ready to scroll text across an LED screen while the other Teensy acts as a remote telling the receiver what text to display. To accomplish this, both boards were outfitted with nRF24l01 transceiver modules to communicate via RF.
 
->In addition to the dedicated remote, an Android app allows the LED display to be controlled via Bluetooth LE. This requires the receiver Teensy to be equipped with a BLE UART module in addition to the RF transceiver.
+In addition to the dedicated remote, an Android app allows the LED display to be controlled via Bluetooth LE. This requires the receiver Teensy to be equipped with a BLE UART module in addition to the RF transceiver.
 
 # **Usage**
 
@@ -17,17 +17,17 @@ The remote features six buttons corresponding to six preset messages, as well as
 When one of the six buttons are pressed, a blue LED ring lights up next to it to show the user which message has been activated. The user may then press the center button to send the message to the LED display. This 2-step process is designed mostly to prevent the user from accidentally sending the wrong message. Upon activation of the center button, the LED ring should sequentially light up blue until the entire ring is illuminated blue. The LEDs next to the activated button will turn to green and then fade away if the message sends successfully or turn to red and fade away if an error was encountered.
 
 ### LED Display Board
->The LED display itself is fairly straightforward. Just mount it on your rear windshield by rotating the side panels 180° so that both suction cups face the same direction as the display. Simply place the suction cups against the inside of the rear windshield and lock the flaps on the opposite face of the panels. Then flip the switch on the rear of the enclosure to power on the device.
+The LED display itself is fairly straightforward. Just mount it on your rear windshield by rotating the side panels 180° so that both suction cups face the same direction as the display. Simply place the suction cups against the inside of the rear windshield and lock the flaps on the opposite face of the panels. Then flip the switch on the rear of the enclosure to power on the device.
 
->When the display board receives a message, it will display it for a maximum of 7 seconds so as not to distract the rear driver. However, the message will scroll faster for longer messages so that the rear driver gets to see the message twice before it disappears in case they missed it the first time.
+When the display board receives a message, it will display it for a maximum of 7 seconds so as not to distract the rear driver. However, the message will scroll faster for longer messages so that the rear driver gets to see the message twice before it disappears in case they missed it the first time.
 
 # **Features**
->The mobile app blocks any inflammatory statements from being sent to the board. It does so using a library full of aggressive and/or hostile terms is stored locally within the app. This library includes everything from benign but negative adjectives like “dumb” and “stupid”, to curse words, to straight-up homophobic and racial slurs… Drivers shouldn’t need these words while trying to de-escalate aggressive situations. 
+The mobile app blocks any inflammatory statements from being sent to the board. It does so using a library full of aggressive and/or hostile terms is stored locally within the app. This library includes everything from benign but negative adjectives like “dumb” and “stupid”, to curse words, to straight-up homophobic and racial slurs… Drivers shouldn’t need these words while trying to de-escalate aggressive situations. 
 
->The app also features Google’s voice recognition software, allowing drivers to operate the device while keeping both hands on the wheel and their eyes on the road. Again, the voice functionality will not let you send any aggressive or inflammatory messages.
+The app also features Google’s voice recognition software, allowing drivers to operate the device while keeping both hands on the wheel and their eyes on the road. Again, the voice functionality will not let you send any aggressive or inflammatory messages.
 
 
-# **Software, Hardware Components, & Wiring**
+# **Required Software, Hardware, & Wiring**
 ### Arduino Libraries Required
 
 * [NeoPixel](https://github.com/adafruit/Adafruit_NeoPixel)
