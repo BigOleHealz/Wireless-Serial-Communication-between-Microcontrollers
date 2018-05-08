@@ -61,6 +61,6 @@ The app also features Google’s voice recognition software, allowing drivers to
 
 ![Receiver Schematic DGM](https://github.com/BigOleHealz/Wireless-Serial-Communication-between-Microcontrollers/blob/master/Receiver/PCB/Images/Schematic.JPG?raw=true)
 
-![Receiver PCB DGM](https://github.com/BigOleHealz/Wireless-Serial-Communication-between-Microcontrollers/blob/master/Receiver/PCB/Images/PCB%20CAD.JPG?raw=true)
+![Receiver PCB DGM](https://github.com/BigOleHealz/Wireless-Serial-Communication-between-Microcontrollers/blob/master/Receiver/PCB/Images/Receiver%20BreadBoard.jpg)
 
 ![Receiver Prototype](https://github.com/BigOleHealz/Wireless-Serial-Communication-between-Microcontrollers/blob/master/Receiver/PCB/Images/PCB%20Prototype.jpg?raw=true)
