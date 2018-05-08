@@ -104,7 +104,6 @@ uint8_t readPacket(Adafruit_BLE *ble, uint16_t timeout)
 
       ble->write(c);
       Serial.print(c);
-
       if (c == '!') {
         replyidx = 0;
       }
