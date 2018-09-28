@@ -112,6 +112,10 @@ void setup(void)
   scrollingLayer.setOffsetFromTop(defaultScrollOffset);
   backgroundLayer.enableColorCorrection(true);
   
+  scrollingLayer.setMode(wrapForward);
+  scrollingLayer.setColor({0xff, 0xff, 0xff});
+  scrollingLayer.setFont(gohufont14);
+  scrollingLayer.setOffsetFromTop((kMatrixHeight/2) - 5);
 }
 
 void loop(void)
@@ -142,11 +146,8 @@ void loop(void)
 
   const char * c = msg.c_str();
   
-  scrollingLayer.setMode(wrapForward);
-  scrollingLayer.setColor({0xff, 0xff, 0xff});
+  
   scrollingLayer.setSpeed(30);
-  scrollingLayer.setFont(gohufont14);
-  scrollingLayer.setOffsetFromTop((kMatrixHeight/2) - 5);
   scrollingLayer.start(c, 2);
   }
 
