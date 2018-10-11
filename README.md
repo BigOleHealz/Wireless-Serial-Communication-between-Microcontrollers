@@ -37,8 +37,6 @@ In the setup() function, a scrolling layer is added to the matrix so that the co
 
 In loop() we simply call the setRotation() function which reads input from the accelerometer and sets the rotation accordingly, so that the text is right-side-up and scrolls from right to left.
 
-
-
 # **Features**
 The mobile app blocks any inflammatory statements from being sent to the board. It does so using an exhaustive library of aggressive and/or hostile terms stored locally on the app. This library includes everything from benign but negative adjectives like “dumb” and “stupid”, to curse words, to homophobic and racial slurs… The is NO reason drivers should need these words while trying to de-escalate aggressive situations. 
 
@@ -71,18 +69,24 @@ The app also features Google’s voice recognition software, allowing drivers to
 * [12 LED NeoPixel Ring](https://www.amazon.com/Pc-Accessories-Connectors-2-Pack-Silver/dp/B01J4NN9LK/ref=sr_1_11?s=electronics&ie=UTF8&qid=1522098852&sr=1-11&keywords=16+pin+ribbon+cable)
 * 7 x [Buttons](https://www.amazon.com/OCR-Tactile-Button-Momentary-Assortment/dp/B01MRP025V/ref=sr_1_1?ie=UTF8&qid=1521743850&sr=8-1&keywords=electronic+buttons)
 
-#### **Remote/Transmitter:**
+
+# **Remote/Transmitter:**
+
 ![Remote Breadboard DGM](https://github.com/BigOleHealz/Wireless-Serial-Communication-between-Microcontrollers/blob/master/Transmitter/PCB/Images/Breadboard%20Diagram.JPG?raw=true)
+
 
 ![Remote Schematic DGM](https://github.com/BigOleHealz/Wireless-Serial-Communication-between-Microcontrollers/blob/master/Transmitter/PCB/Images/Schematic.JPG)
 
+
 ![Remote PCB DGM](https://github.com/BigOleHealz/Wireless-Serial-Communication-between-Microcontrollers/blob/master/Transmitter/PCB/Images/PCB%20CAD.JPG?raw=true)
 
-#### **Receiver:**
-![Receiver Breadboard DGM](https://github.com/BigOleHealz/Wireless-Serial-Communication-between-Microcontrollers/blob/master/Receiver/PCB/Images/Receiver%20BreadBoard.jpg)
+
+# **Receiver:**
 
 ![Receiver Schematic DGM](https://github.com/BigOleHealz/Wireless-Serial-Communication-between-Microcontrollers/blob/master/Receiver/PCB/Images/Schematic.JPG?raw=true)
 
+
 ![Receiver PCB DGM](https://github.com/BigOleHealz/Wireless-Serial-Communication-between-Microcontrollers/blob/master/Receiver/PCB/Images/ReceiverPCB.jpg)
+
 
 ![Receiver Prototype](https://github.com/BigOleHealz/Wireless-Serial-Communication-between-Microcontrollers/blob/master/Receiver/PCB/Images/PCB%20Prototype.jpg?raw=true)
