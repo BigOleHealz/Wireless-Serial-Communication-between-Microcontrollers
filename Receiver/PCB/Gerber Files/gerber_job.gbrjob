@@ -1,0 +1,13 @@
+G04 Gerber job file.*
+%TF.FileFunction,JobInfo*%
+%TF.GenerationSoftware,Autodesk,EAGLE,9.0.0*%
+%TF.CreationDate,2018-08-29T12:33:52Z*%
+%TF.Part,Single*%
+%MOMM*%
+%TJ.B_Owner,Taif Choudhury <trc42@glink.drexel.edu>*%
+%TJ.B_ID,circuit*%
+%TJ.B_LayerNum,2*%
+%TJ.B_Thickness,1.570000*%
+%TJ.B_Size_X,71.120000*%
+%TJ.B_Size_Y,38.735000*%
+M02*
