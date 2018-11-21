@@ -65,7 +65,6 @@ void setup(void) {
   }
 
   lis.setRange(LIS3DH_RANGE_4_G);
-  Serial.println("Fuck");
 }
 
 void loop(void) {
